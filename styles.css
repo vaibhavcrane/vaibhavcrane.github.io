@@ -1,6 +1,6 @@
 body    {
     margin: 0px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .container  {
@@ -35,6 +35,10 @@ body    {
     max-height: 125px;
     width: auto;
     height: auto;
+}
+
+.brand > div > h1 {
+    margin: 10px;
 }
 
 /*nav styles*/
@@ -85,7 +89,7 @@ body    {
 /*content styles*/
 
 .scrollable {
-    margin-top: 312.73px;
+    margin-top: 293.8px;
 }
 
 .content-wrapper    {
@@ -94,7 +98,7 @@ body    {
 }
 
 .content-statement-wrapper  {
-    padding-top: 50px;
+    padding-top: 15px;
     padding-left: 20%;
     padding-right: 20%;
     justify-content: center;
