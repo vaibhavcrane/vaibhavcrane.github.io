@@ -36,7 +36,6 @@ body    {
 }
 
 .nav-column-wrapper   {
-    height: 22px;
     display: flex;
     justify-content: center;
     padding-top: 17px;
@@ -63,4 +62,47 @@ body    {
 .nav-link-wrapper a:hover   {
     color: black;
     transition: color 1s;
+}
+
+
+/*content styles*/
+.content-wrapper    {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.content-statement-wrapper  {
+    padding-top: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.content-statement-wrapper  p   {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+/*footer wrapper*/
+.footer-wrapper {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media-wrapper   {
+    padding: 30px;
+}
+
+.social-media-link-wrapper  {
+
+}
+
+.social-media-link-wrapper  img {
+    max-width: 35px;
+    max-height: 35px;
+    width: auto;
+    height: auto;
 }
