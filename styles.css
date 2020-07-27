@@ -1,0 +1,27 @@
+body    {
+    font-family: "Lato", sans-serif;
+}
+
+/*profile styles*/
+
+.container  {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.header-wrapper .center {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.header-wrapper > .center > .brand   {
+    color: #8a8a8a;
+}
+
+.header-wrapper > .center > img {
+    border-radius: 50%;
+    max-width: 125px;
+    max-height: 125px;
+    width: auto;
+    height: auto;
+}
