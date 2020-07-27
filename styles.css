@@ -64,6 +64,13 @@ body    {
     transition: color 1s;
 }
 
+.active-nav-link    {
+    border-bottom: 1px solid black;
+}
+
+.active-nav-link a  {
+    color: black !important;
+}
 
 /*content styles*/
 .content-wrapper    {
