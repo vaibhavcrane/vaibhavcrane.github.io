@@ -114,6 +114,11 @@ body    {
     justify-content: center;
 }
 
+.back-button div    {
+    height: 23;
+    border-bottom: 1px solid transparent;
+}
+
 .back-button a    {
     text-decoration: none;
     color: #8a8a8a;
