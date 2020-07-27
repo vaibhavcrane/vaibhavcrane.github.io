@@ -29,10 +29,36 @@ body    {
 /*nav styles*/
 
 .nav-wrapper    {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 50px;
+}
+
+.nav-column-wrapper   {
+    height: 22px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    padding-top: 17px;
 }
 
 .nav-link-wrapper   {
-    width: 175px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #8a8a8a;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid;
+    transition: border-bottom 1s;
+}
+
+.nav-link-wrapper a:hover   {
+    color: black;
+    transition: color 1s;
 }
