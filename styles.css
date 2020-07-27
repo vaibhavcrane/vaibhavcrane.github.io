@@ -2,12 +2,12 @@ body    {
     font-family: "Lato", sans-serif;
 }
 
-/*profile styles*/
-
 .container  {
     display: grid;
     grid-template-columns: 1fr;
 }
+
+/*header styles*/
 
 .header-wrapper .center {
     padding-top: 30px;
@@ -24,4 +24,15 @@ body    {
     max-height: 125px;
     width: auto;
     height: auto;
+}
+
+/*nav styles*/
+
+.nav-wrapper    {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link-wrapper   {
+    width: 175px;
 }
