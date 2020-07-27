@@ -109,6 +109,27 @@ body    {
     font-size: 1.2em;
 }
 
+.back-button    {
+    display: flex;
+    justify-content: center;
+}
+
+.back-button a    {
+    text-decoration: none;
+    color: #8a8a8a;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.back-button div:hover {
+    border-bottom: 1px solid;
+    transition: border-bottom 1s;
+}
+
+.back-button a:hover   {
+    color: black;
+    transition: color 1s;
+}
 
 /*footer wrapper*/
 .footer-wrapper {
