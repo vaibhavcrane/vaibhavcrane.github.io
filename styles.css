@@ -16,6 +16,7 @@ body    {
 
 .header-wrapper > .center > .brand   {
     color: #8a8a8a;
+    font-size: 1.3em;
 }
 
 .header-wrapper > .center > img {
@@ -48,6 +49,7 @@ body    {
 
 .nav-link-wrapper a {
     font-weight: 600;
+    font-size: 1.3em;
     text-decoration: none;
     color: #8a8a8a;
     transition: color 0.5s;
