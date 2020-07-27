@@ -10,6 +10,15 @@ body    {
 
 /*header styles*/
 
+#fixed-bar    {
+    width: 100%;
+    position: fixed;
+    z-index: 100; //exceed z-index of other elements on the page
+    display: none;
+    background: white;
+    top: 0px;
+}
+
 .header-wrapper .center {
     padding-top: 30px;
     text-align: center;
@@ -74,6 +83,11 @@ body    {
 }
 
 /*content styles*/
+
+.scrollable {
+    margin-top: 312.73px;
+}
+
 .content-wrapper    {
     display: grid;
     grid-template-columns: 1fr;
@@ -83,7 +97,6 @@ body    {
     padding-top: 100px;
     padding-left: 20%;
     padding-right: 20%;
-    display: flex;
     justify-content: center;
 }
 
@@ -95,13 +108,13 @@ body    {
 
 /*footer wrapper*/
 .footer-wrapper {
-    padding-top: 100px;
     display: flex;
     justify-content: center;
 }
 
 .social-media-wrapper   {
     padding: 30px;
+    padding-bottom: 10px;
 }
 
 .social-media-link-wrapper  {
