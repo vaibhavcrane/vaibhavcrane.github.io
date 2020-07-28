@@ -1,69 +1,140 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!doctype html>
+<html lang="en">
     <head>
+        <!-- Required meta tags -->
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <!-- Custom css -->
+        <link rel="stylesheet" href="custom.css">
         <title>Vaibhav Rane</title>
-        <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <div class="container">
-            <div id="fixed-bar">
-                <div class="header-wrapper">
-                    <div class="center">
-                        <img src="images/profile.jpg">
-                        <div class="brand">
-                            <div><h1>Vaibhav Rane</h1></div>
-                        </div>
+            <!-- top header with photo, name and navbar -->
+            <div class="fixed-top bg-white mx-md-5">
+                <div class="row name-header">
+                    <div class="col text-center pt-4">
+                        <img src="images/profile.jpg" class="img-fluid rounded-circle" width="125px" height="125px">
+                        <h1>Vaibhav Rane</h1>
                     </div>
                 </div>
-                <div class="nav-wrapper">
-                    <div class="nav-column-wrapper">
-                        <div class="nav-link-wrapper">
-                            <a href="professional.html">Work</a>
-                        </div>
+                <nav>
+                    <div class="nav nav-tabs justify-content-center px-1" id="nav-tab" role="tablist">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link text-secondary active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link text-secondary" id="work-tab" data-toggle="tab" href="#work" role="tab" aria-controls="work" aria-selected="false">Work</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link text-secondary" id="education-tab" data-toggle="tab" href="#education" role="tab" aria-controls="education" aria-selected="false">Education</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link text-secondary" id="aboutme-tab" data-toggle="tab" href="#aboutme" role="tab" aria-controls="aboutme" aria-selected="false">About Me</a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="nav-column-wrapper">
-                        <div class="nav-link-wrapper">
-                            <a href="education.html">Education</a>
-                        </div>
-                    </div>
-                    <div class="nav-column-wrapper">
-                        <div class="nav-link-wrapper">
-                            <a href="other.html">About Me</a>
-                        </div>
-                    </div>
-                </div>
+                </nav>
             </div>
+            <!-- main content -->
             <div class="scrollable">
-                <div class="content-wrapper">
-                    <div class="content-statement-wrapper">
-                        <p>I will insert my career statement here. I want this to be a big ass statement for testing. So I am currently writing any crap that I can think of. Seriously, if you are reading this please don't even bither to readr further. This is my first time trying to make a website. Seriously, why are you still reading?</p>
+                <div class="tab-content">
+                    <!-- content to be shown by default -->
+                    <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <blockquote class="blockquote text-center">
+                          <p class="mb-0">I will insert my career statement here. I want this to be a big ass statement for testing. So I am currently writing any crap that I can think of. Seriously, if you are reading this please don't even bither to readr further. This is my first time trying to make a website. Seriously, why are you still reading?</p>
+                        </blockquote>
                     </div>
-                </div>
-                <div class="footer-wrapper">
-                    <div class="social-media-wrapper">
-                        <div class="social-media-link-wrapper">
-                            <a href="https://twitter.com/vaibhavcrane"><img src="images/twitter.png"></a>
+                    <!-- content to be shown under work tab -->
+                    <div class="tab-pane" id="work" role="tabpanel" aria-labelledby="work-tab">
+                        <div class="work-statement-wrapper">
+                            <div class="timeline">
+                                <ul>
+                                    <li>
+                                        <div class="content">
+                                            <h3>Spectrum Electrical Industries Limited</h3>
+                                            <h6>Jalgaon, India</h6>
+                                            <p>Something about my experience bleh bleh bleh...</p>
+                                        </div>
+                                        <div class="time">
+                                            <h4>Aug 2019 - Aug 2020</h4>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="content">
+                                            <h3>Indian Oil Corporation Limited</h3>
+                                            <h6>Ujjain, India</h6>
+                                            <p>Something about my experience bleh bleh bleh...</p>
+                                        </div>
+                                        <div class="time">
+                                            <h4>Aug 2017 - Jul 2019</h4>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="social-media-wrapper">
-                        <div class="social-media-link-wrapper">
-                            <a href="https://www.facebook.com/vaibhav.rane.3388630/"><img src="images/facebook.png"></a>
+                    <!-- content to be shown under education tab -->
+                    <div class="tab-pane" id="education" role="tabpanel" aria-labelledby="education-tab">
+                        <div class="education-statement-wrapper">
+                            <div class="timeline">
+                                <ul>
+                                    <li>
+                                        <div class="content">
+                                            <h3>Schulich School of Business</h3>
+                                            <h6>York University, Toronto</h6>
+                                            <p>I will be joining the fall 2020 cohort at Schulich. I will be joining the fall 2020 cohort at Schulich. I will be joining the fall 2020 cohort at Schulich.</p>
+                                        </div>
+                                        <div class="time">
+                                            <h4>Apr 2022</h4>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="content">
+                                            <h3>College of Engineering Pune</h3>
+                                            <h6>Pune, India</h6>
+                                            <p>I completed my bachelorsin Electrical Engineering. I completed my bachelorsin Electrical Engineering. I completed my bachelorsin Electrical Engineering. I completed my bachelorsin Electrical Engineering.</p>
+                                        </div>
+                                        <div class="time">
+                                            <h4>May 2017</h4>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="social-media-wrapper">
-                        <div class="social-media-link-wrapper">
-                            <a href="https://www.linkedin.com/in/vaibhavcrane"><img src="images/linkedin.png"></a>
-                        </div>
-                    </div>
-                    <div class="social-media-wrapper">
-                        <div class="social-media-link-wrapper">
-                            <a href="mailto:vaibhavcrane@me.com"><img src="images/email.png"></a>
-                        </div>
-                    </div>
+                    <!-- content to be shown under About Me tab -->
+                    <div class="tab-pane" id="aboutme" role="tabpanel" aria-labelledby="aboutme-tab">...</div>
                 </div>
             </div>
+            <!-- Social media links footer -->
+            <nav>
+                <div class="nav fixed-bottom nav-fill justify-content-center bg-white">
+                    <ul class="nav">
+                        <li class="nav-item m-2">
+                            <a href="https://www.twitter.com/vaibhbavcrane"><img src="images/twitter.png" width="25px" height="25px"></a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a href="https://www.facebook.com/vaibhav.rane.3388630/"><img src="images/facebook.png" width="25px" height="25px"></a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a href="https://www.linkedin.com/in/vaibhavcrane"><img src="images/linkedin.png" width="25px" height="25px"></a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a href="mailto:vaibhavcrane@me.com"><img src="images/email.png" width="25px" height="25px"></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     </body>
 </html>
