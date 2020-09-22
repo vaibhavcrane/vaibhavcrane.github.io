@@ -1,1 +1,1 @@
-portfolio website for me
+portfolio website for myself
